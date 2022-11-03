@@ -49,7 +49,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #737373;
+  background: #5392b5;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -58,7 +58,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding {
-  background: grey;
+  background: #659DBD;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -70,7 +70,7 @@
   height: 250px;
   background: url("../img/proffapieni.jpg");
   border-radius: 50%;
-  border: solid 3px #FCA311;
+  border: solid 3px #DAAD86;
 }
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
@@ -80,7 +80,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #FCA311;
+  color: #DAAD86;
 }
 .menu .nav-link {
   display: inline-block;
@@ -94,7 +94,7 @@
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #FCA311;
+  color: #DAAD86;
 }
 
 .nav-item:nth-child(1) {
@@ -175,7 +175,7 @@
 }
 
 body {
-  background: grey;
+  background: #659DBD;
   color: #000;
   height: 100%;
   margin: 0;
@@ -183,7 +183,7 @@ body {
   line-height: 1.5;
 }
 body#bg-img {
-  background: url("../img/aot.jpg");
+  background: url("../img/taustakuva.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -195,7 +195,7 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(128, 128, 128, 0.4);
+  background: rgba(101, 157, 189, 0.4);
 }
 
 h1,
@@ -214,7 +214,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(133, 133, 133, 0.5);
+  background: rgba(108, 162, 192, 0.5);
 }
 
 a {
@@ -229,7 +229,7 @@ header {
 }
 
 .text-secondary {
-  color: #FCA311;
+  color: #DAAD86;
 }
 
 main {
@@ -244,7 +244,7 @@ main .icons a {
   transition: all 0.5s ease-out;
 }
 main .icons a:hover {
-  color: #FCA311;
+  color: #DAAD86;
 }
 main#home {
   overflow: hidden;
@@ -263,7 +263,7 @@ main#home h1 {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #FCA311 3px solid;
+  border: #DAAD86 3px solid;
 }
 .about-info .bio {
   grid-area: bio;
@@ -279,9 +279,9 @@ main#home h1 {
   grid-area: job3;
 }
 .about-info .job {
-  background: #8d8d8d;
+  background: #77a8c5;
   padding: 0.5rem;
-  border-bottom: #FCA311, 5px, solid;
+  border-bottom: #DAAD86, 5px, solid;
 }
 
 .projects {
@@ -295,7 +295,7 @@ main#home h1 {
 }
 .projects img:hover {
   opacity: 0.5;
-  border-color: #FCA311;
+  border-color: #DAAD86;
   transition: all 0.5s ease-out;
 }
 
@@ -315,7 +315,7 @@ main#home h1 {
 }
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background: #FCA311;
+  background: #DAAD86;
   color: #000;
 }
 .boxes div:hover span {
@@ -329,12 +329,12 @@ main#home h1 {
   margin-bottom: 0.3rem;
 }
 .btn:hover, .btn-light:hover, .btn-dark:hover {
-  background: #FCA311;
+  background: #DAAD86;
   color: #000;
 }
 
 .btn-dark {
-  background: #010101;
+  background: #0b1319;
   color: #fff;
 }
 
@@ -346,7 +346,7 @@ main#home h1 {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #676767;
+  background: #4885a7;
   color: #000;
   height: 60px;
 }
