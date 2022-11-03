@@ -1,0 +1,24 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/:dist/css/ --watch",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temevh/Front-end.git"
+  },
+  "author": "Teemu H.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/temevh/Front-end/issues"
+  },
+  "homepage": "https://github.com/temevh/Front-end#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "sass": "^1.55.0"
+  }
+}

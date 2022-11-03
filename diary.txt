@@ -1,0 +1,21 @@
+Learning diary for Software Development Skills: Front-End 2022-23
+Author Teemu Hämäläinen
+
+1.11.2022
+Started the course. Read through course overview, general course information, enviroment setup and watched part1.
+Set up sass and the workspace, downloaded everything needed
+DId some troubleshooting with sass (node-sass deprecated)
+Initialized github repository front-end
+Did part 1 and part 2
+
+2.11.2022
+Did part 3 and 4, enhanced the sidebar and made the site responsive
+added different functions for different sized screens.
+
+3.11.2022
+Added the about me page, personalized the page (changed pictures, colours etc)
+Added the contact page, made it responsive
+
+
+https://www.youtube.com/watch?v=QOdnrMC9O7A&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU&index=5
+
