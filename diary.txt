@@ -17,5 +17,6 @@ Added the about me page, personalized the page (changed pictures, colours etc)
 Added the contact page, made it responsive
 
 
+
 https://www.youtube.com/watch?v=QOdnrMC9O7A&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU&index=5
 

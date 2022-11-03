@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://temevh.github.io/portfolio",
   "scripts": {
     "sass": "sass scss/:dist/css/ --watch",
     "deploy": "gh-pages -d dist"
@@ -16,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/temevh/Front-end/issues"
   },
-  "homepage": "https://github.com/temevh/Front-end#readme",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "sass": "^1.55.0"
