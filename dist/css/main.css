@@ -10,7 +10,7 @@
   width: 28px;
   height: 3px;
   margin: 0 0 5px 0;
-  background: #000;
+  background: #fff;
   transition: all 0.5s ease-out;
 }
 .menu-btn.close {
@@ -49,7 +49,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #5392b5;
+  background: #282828;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -58,7 +58,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding {
-  background: #659DBD;
+  background: #353535;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -70,7 +70,7 @@
   height: 250px;
   background: url("../img/proffapieni.jpg");
   border-radius: 50%;
-  border: solid 3px #DAAD86;
+  border: solid 3px #284b63;
 }
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
@@ -80,7 +80,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #DAAD86;
+  color: #284b63;
 }
 .menu .nav-link {
   display: inline-block;
@@ -89,12 +89,12 @@
   text-transform: uppercase;
   padding: 1rem 0;
   font-weight: 300;
-  color: #000;
+  color: #fff;
   text-decoration: none;
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #DAAD86;
+  color: #284b63;
 }
 
 .nav-item:nth-child(1) {
@@ -175,8 +175,8 @@
 }
 
 body {
-  background: #659DBD;
-  color: #000;
+  background: #353535;
+  color: #fff;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -195,7 +195,7 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(101, 157, 189, 0.4);
+  background: rgba(53, 53, 53, 0.4);
 }
 
 h1,
@@ -214,7 +214,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(108, 162, 192, 0.5);
+  background: rgba(58, 58, 58, 0.5);
 }
 
 a {
@@ -229,7 +229,7 @@ header {
 }
 
 .text-secondary {
-  color: #DAAD86;
+  color: #284b63;
 }
 
 main {
@@ -244,7 +244,7 @@ main .icons a {
   transition: all 0.5s ease-out;
 }
 main .icons a:hover {
-  color: #DAAD86;
+  color: #284b63;
 }
 main#home {
   overflow: hidden;
@@ -263,7 +263,7 @@ main#home h1 {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #DAAD86 3px solid;
+  border: #284b63 3px solid;
 }
 .about-info .bio {
   grid-area: bio;
@@ -279,9 +279,9 @@ main#home h1 {
   grid-area: job3;
 }
 .about-info .job {
-  background: #77a8c5;
+  background: #424242;
   padding: 0.5rem;
-  border-bottom: #DAAD86, 5px, solid;
+  border-bottom: #284b63, 5px, solid;
 }
 
 .projects {
@@ -295,7 +295,7 @@ main#home h1 {
 }
 .projects img:hover {
   opacity: 0.5;
-  border-color: #DAAD86;
+  border-color: #284b63;
   transition: all 0.5s ease-out;
 }
 
@@ -315,11 +315,11 @@ main#home h1 {
 }
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background: #DAAD86;
-  color: #000;
+  background: #284b63;
+  color: #fff;
 }
 .boxes div:hover span {
-  color: #000;
+  color: #fff;
 }
 
 .btn, .btn-light, .btn-dark {
@@ -329,25 +329,25 @@ main#home h1 {
   margin-bottom: 0.3rem;
 }
 .btn:hover, .btn-light:hover, .btn-dark:hover {
-  background: #DAAD86;
-  color: #000;
+  background: #284b63;
+  color: #fff;
 }
 
 .btn-dark {
-  background: #0b1319;
+  background: black;
   color: #fff;
 }
 
 .btn-light {
-  background: white;
+  background: #b5b5b5;
   color: #333;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #4885a7;
-  color: #000;
+  background: #1c1c1c;
+  color: #fff;
   height: 60px;
 }
 
