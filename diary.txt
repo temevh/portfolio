@@ -21,5 +21,7 @@ It was nice to tinker around with the different elements, add objects and make t
 One challenge was to find a good color combination, but I feel like I found one which suits the site well.
 Another challenge was setting the pictures to be the right size, especially the portrait picture in the menu.
 
+Some context as sass, npm and the multi-filed structure of the project was a bit confusing at first, but after using them 
+I feel like I started to understand their purpose and their charasteristics. 
 
 
