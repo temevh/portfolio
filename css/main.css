@@ -30,7 +30,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.95;
   visibility: hidden;
 }
 .menu.show {
@@ -49,7 +49,7 @@
 .menu-nav {
   margin: 0;
   padding: 0;
-  background: #282828;
+  background: #080b0f;
   list-style: none;
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
@@ -58,7 +58,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu-branding {
-  background: #353535;
+  background: #101820;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
@@ -68,9 +68,9 @@
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  background: url("../img/proffapieni.jpg");
+  background: url("../img/proffapieni2.jpg");
   border-radius: 50%;
-  border: solid 3px #284b63;
+  border: solid 3px #F2AA4C;
 }
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
@@ -80,7 +80,7 @@
   transform: translate3d(0, 0, 0);
 }
 .menu .nav-item.current > a {
-  color: #284b63;
+  color: #F2AA4C;
 }
 .menu .nav-link {
   display: inline-block;
@@ -94,7 +94,7 @@
   transition: all 0.5s ease-out;
 }
 .menu .nav-link:hover {
-  color: #284b63;
+  color: #F2AA4C;
 }
 
 .nav-item:nth-child(1) {
@@ -175,7 +175,7 @@
 }
 
 body {
-  background: #353535;
+  background: #101820;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -195,7 +195,7 @@ body#bg-img:after {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: rgba(53, 53, 53, 0.4);
+  background: rgba(16, 24, 32, 0.4);
 }
 
 h1,
@@ -214,7 +214,7 @@ h2.sm-heading,
 h3.sm-heading {
   margin-bottom: 2rem;
   padding: 0.2rem 1rem;
-  background: rgba(58, 58, 58, 0.5);
+  background: rgba(19, 29, 39, 0.5);
 }
 
 a {
@@ -229,7 +229,7 @@ header {
 }
 
 .text-secondary {
-  color: #284b63;
+  color: #F2AA4C;
 }
 
 main {
@@ -244,7 +244,7 @@ main .icons a {
   transition: all 0.5s ease-out;
 }
 main .icons a:hover {
-  color: #284b63;
+  color: #F2AA4C;
 }
 main#home {
   overflow: hidden;
@@ -263,7 +263,7 @@ main#home h1 {
   grid-area: bioimage;
   margin: auto;
   border-radius: 50%;
-  border: #284b63 3px solid;
+  border: #F2AA4C 3px solid;
 }
 .about-info .bio {
   grid-area: bio;
@@ -279,9 +279,9 @@ main#home h1 {
   grid-area: job3;
 }
 .about-info .job {
-  background: #424242;
+  background: #192531;
   padding: 0.5rem;
-  border-bottom: #284b63, 5px, solid;
+  border-bottom: #F2AA4C, 5px, solid;
 }
 
 .projects {
@@ -295,7 +295,7 @@ main#home h1 {
 }
 .projects img:hover {
   opacity: 0.5;
-  border-color: #284b63;
+  border-color: #F2AA4C;
   transition: all 0.5s ease-out;
 }
 
@@ -315,11 +315,11 @@ main#home h1 {
 }
 .boxes div:hover {
   padding: 0.5rem 1.5rem;
-  background: #284b63;
-  color: #fff;
+  background: #F2AA4C;
+  color: #000;
 }
 .boxes div:hover span {
-  color: #fff;
+  color: #000;
 }
 
 .btn, .btn-light, .btn-dark {
@@ -329,8 +329,8 @@ main#home h1 {
   margin-bottom: 0.3rem;
 }
 .btn:hover, .btn-light:hover, .btn-dark:hover {
-  background: #284b63;
-  color: #fff;
+  background: #F2AA4C;
+  color: #000;
 }
 
 .btn-dark {
@@ -339,14 +339,14 @@ main#home h1 {
 }
 
 .btn-light {
-  background: #b5b5b5;
+  background: #7598ba;
   color: #333;
 }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #1c1c1c;
+  background: black;
   color: #fff;
   height: 60px;
 }
