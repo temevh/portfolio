@@ -20,8 +20,8 @@ Overall I found the project to be a refreshing change. This was also my first to
 It was nice to tinker around with the different elements, add objects and make the site look more like me. 
 One challenge was to find a good color combination, but I feel like I found one which suits the site well.
 Another challenge was setting the pictures to be the right size, especially the portrait picture in the menu.
+I also learned how to actually publish websites, although i did not get a custom domain working due to some DNS problems.
+I am planning on extending the site further in the future.
 
 Some context as sass, npm and the multi-filed structure of the project was a bit confusing at first, but after using them 
 I feel like I started to understand their purpose and their charasteristics. 
-
-
