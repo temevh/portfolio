@@ -14,9 +14,12 @@ added different functions for different sized screens.
 
 3.11.2022
 Added the about me page, personalized the page (changed pictures, colours etc)
-Added the contact page, made it responsive
+Added the contact page, made it responsive. Added personal and school contacts
+
+Overall I found the project to be a refreshing change. This was also my first touch into "proper" front-end development.
+It was nice to tinker around with the different elements, add objects and make the site look more like me. 
+One challenge was to find a good color combination, but I feel like I found one which suits the site well.
+Another challenge was setting the pictures to be the right size, especially the portrait picture in the menu.
 
 
-
-https://www.youtube.com/watch?v=QOdnrMC9O7A&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU&index=5
 
